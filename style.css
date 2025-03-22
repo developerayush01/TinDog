@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+}
+.one
+{
+    border: 1px solid blue;
+    height: 70%;
+}
+header
+{
+display: flex;
+height: 10%;
+border: 1px solid red;
+align-items: center;
+justify-content: space-around;
+}
+header>span:nth-child(1)
+{
+    font-size: max(1vw,15px,2vw);
+}
+header>span:nth-child(2)
+{
+    font-size: min(3vw,20px,4vw);
+}
+header>span>ul
+{
+    display: flex;
+    gap: 5%;
+list-style: none;
+}
+.sec1-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
