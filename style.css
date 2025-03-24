@@ -10,10 +10,12 @@ body
     height: 100vh;
     width: 100%;
 }
+
+/* First section */
+
 .one
 {
     height: 80%;
-    width: 100%;
     background-color: #ff4c68;
 }
 header
@@ -25,7 +27,9 @@ justify-content: space-around;
 }
 header>span:nth-child(1)
 {
-    font-size: max(1vw,15px,2vw);
+    font-size:5vh;
+    font-weight: 900;
+    color: white;
 }
 header>span:nth-child(2)
 {
@@ -34,14 +38,20 @@ header>span:nth-child(2)
 header>span>ul
 {
     display: flex;
-    gap: 5%;
+    width: 50%;
+    gap: 10%;
+    color: rgba(255,255,255,.5);
 list-style: none;
+}
+header span ul li:hover
+{
+color: white;
+cursor: pointer;
+transition: 0.5s ease-in-out;
 }
 .sec1-content
 {
     display: flex;
-    flex-wrap: wrap;
-    border: 2px solid black;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -49,8 +59,8 @@ list-style: none;
 .sec1-txt
 {
     height: 100%;
-    width: 50%;
     display: flex;
+    width: 40%;
     flex-direction: column;
     justify-content: center;
 }
@@ -78,20 +88,24 @@ list-style: none;
     display: flex;
     align-items: center;
     border: 1px solid gray;
-    padding: 5px;
+    padding: 10px;
     color: white;
+    border-radius:5px;
 }
 .apple
 {
     display: flex;
     align-items: center;
     border: 1px solid gray;
-    padding:5px;
+    background-color: #23272b;
+    border-radius:5px;
+    padding:10px;
     color: white;
 }
 .sec1-img
 {
     height: 100%;
+    width: 30%;
     position: relative;
 }
 .sec1-img>img
@@ -99,14 +113,59 @@ list-style: none;
     height: 100%;
     position: absolute;
     top: 20%;
+    
     transform: scale(1.2);
     transform: rotate(20deg);
-    z-index: 1;
 }
+
+/* Second section */
 .two
 {
     height: 70%;
     position: relative;
     z-index:1;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.two-inner
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.easy, .AI, .work
+{
+    line-height: 5ch;
+}
+.tick-icon, .target-icon ,.heart-icon
+{
+    color: #ef8172;
+}
+
+.tick-icon:hover, .target-icon:hover ,.heart-icon:hover
+{
+    color: #ff4c68;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.tick-bold, .target-bold ,.heart-bold
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3vh;
+}
+.tick-normal, .target-normal ,.heart-normal
+{
+    color: #a2a2a2;
+    font-weight: 100;
+    font-size: medium;
+}
+
+
+
