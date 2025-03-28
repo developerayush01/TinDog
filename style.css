@@ -9,6 +9,7 @@ body
 {
     height: 100vh;
     width: 100%;
+    font-family: "Montserrat",sans-serif;
 }
 
 /* First section */
@@ -87,6 +88,7 @@ transition: 0.5s ease-in-out;
 {
     display: flex;
     align-items: center;
+    gap: 5%;
     border: 1px solid gray;
     padding: 10px;
     color: white;
@@ -95,6 +97,7 @@ transition: 0.5s ease-in-out;
 .apple
 {
     display: flex;
+    gap: 5%;
     align-items: center;
     border: 1px solid gray;
     background-color: #23272b;
@@ -166,6 +169,218 @@ transition: 0.5s ease-in-out;
     font-weight: 100;
     font-size: medium;
 }
+.three
+{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff4c68;
+}
+.three-txt
+{
+    font-family: "Montserrat", sans-serif;
+    width: 70%;
+    color: white;
+    word-break: keep-all;
+    font-weight: 900;
+    font-size: 5vh;
+}
+.dog-img
+{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 5%;
+}
+.img1
+{
+    height: 100px;
+    width: 100px;
+    background-image: url("WhatsApp\ Image\ 2025-03-21\ at\ 15.44.51_3f7fc127.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.img-txt
+{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three-logo
+{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+/* Fourth section */
+
+
+.four
+{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    gap: 5%;
+    padding: 0 5% 0 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four2
+{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    gap: 5%;
+    justify-content: center;
+}
+.four1>p:nth-child(1)
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+}
+.four1>p:nth-child(2)
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.chihuaua,.labrador,.mastiff
+{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 2%;
+    width: 30%;
+    border: 1px solid #a2a2a2;
+    gap: 50px;
+}
+.heading
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    border-bottom: 1px solid gray;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 2%;
+}
+.free
+{
+    letter-spacing: 0.1ch;
+    line-height: 3vw;
+    padding:0 5% 0 5%;
+}
+.free>p:nth-child(1)
+{
+font-weight: 900;
+font-size: 48px;
+}
+.free>p:nth-child(2),.free>p:nth-child(3),.free>p:nth-child(4),.free>p:nth-child(5)
+{
+    font-weight: 400;
+    font-size: 24px;
+    color: #a2a2a2;
+}
+.mastiff
+{
+    margin-top: 2%;
+}
+.signup
+{
+    width: 100%;
+    height: 10%;
+    padding: 0 3% 0 3%;
+}
+.signup button
+{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+.signup1
+{
+    width: 100%;
+    height: 10%;
+    padding: 0 3% 0 3%;
+}
+.signup1 button
+{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    background-color: #23272b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+.signup2
+{
+    width: 100%;
+    height: 10%;
+    padding: 0 3% 0 3%;
+}
+.signup2 button
+{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    background-color: #23272b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+/* footer */
+
+.foot
+{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.icons
+{
+    display: flex;
+    gap: 5%;
+}
+.icons>i
+{
+    font-size: 20px;
+}
+.copyright
+{
+    font-weight: 400;
+    font-size: 16px;
+    color: #a2a2a2;
+}
+
 
 
 
